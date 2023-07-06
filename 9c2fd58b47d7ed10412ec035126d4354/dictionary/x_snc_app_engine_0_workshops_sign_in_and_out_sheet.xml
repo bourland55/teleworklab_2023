@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="76793d03479bed10412ec035126d4319" label="Workshops Sign In and Out Sheet" max_length="40" name="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" text_index="true" type="collection">
+        <element label="Event" max_length="32" name="event" reference="x_snc_app_engine_0_workshop_info" type="reference"/>
+        <element label="Name" max_length="32" name="name" reference="x_snc_app_engine_0_corona_workshop_attendees" type="reference"/>
+        <element label="Sign In Day 1" max_length="40" name="sign_in_day_1" type="glide_date_time"/>
+        <element label="Sign In Day 2" max_length="40" name="sign_in_day_2" type="glide_date_time"/>
+        <element label="Sign In Day One" max_length="40" name="sign_in_day_one" type="boolean"/>
+        <element label="Sign In Day Two" max_length="40" name="sign_in_day_two" type="boolean"/>
+        <element label="Sign Out Day 1" max_length="40" name="sign_out_day_1" type="glide_date_time"/>
+        <element label="Sign Out Day 2" max_length="40" name="sign_out_day_2" type="glide_date_time"/>
+        <element label="Sign Out Day One" max_length="40" name="sign_out_day_one" type="boolean"/>
+        <element label="Sign Out Day Two" max_length="40" name="sign_out_day_two" type="boolean"/>
+        <element label="User Email" max_length="40" name="user_email" type="string"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5111ed0f47d7ed10412ec035126d4320" label="Workshop Attendees" max_length="40" name="x_snc_app_engine_0_corona_workshop_attendees" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Agency" max_length="40" name="agency" type="string"/>
+        <element label="email" max_length="40" name="email" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_app_engine_0_workshop_info" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="title" type="string"/>
+        <element display="true" formula="CONCATENATE(first_name,&quot;.&quot;,last_name)" label="User Name" max_length="40" name="user_name" type="string" virtual="true" virtual_type="formula"/>
+        <element label="User Record" max_length="32" name="user_record" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="user_record"/>
+        </index>
+    </element>
+</database>

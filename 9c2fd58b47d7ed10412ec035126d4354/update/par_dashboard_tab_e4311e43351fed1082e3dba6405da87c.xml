@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dashboard display_value="App Engine Workshops">24311e43de1fed1081227c4984fdf87c</dashboard>
+        <name>Main</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:45:36</sys_created_on>
+        <sys_id>e4311e43351fed1082e3dba6405da87c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Main</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>par_dashboard_tab_e4311e43351fed1082e3dba6405da87c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 20:07:31</sys_updated_on>
+    </par_dashboard_tab>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Workshop Info">12311283471fed10412ec035126d439b</ais_search_source>
+        <label>Workshop Info</label>
+        <name>Workshop Info</name>
+        <order>100</order>
+        <search_context_config display_value="App Engine Workshops AI Search Configuration">e0311e43d21fed10c7483d81b71a307a</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:45:43</sys_created_on>
+        <sys_id>ee311283471fed10412ec035126d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workshop Info</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sys_search_filter_ee311283471fed10412ec035126d43dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:45:43</sys_updated_on>
+    </sys_search_filter>
+</record_update>

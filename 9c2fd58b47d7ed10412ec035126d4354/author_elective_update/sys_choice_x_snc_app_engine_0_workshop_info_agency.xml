@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="agency" table="x_snc_app_engine_0_workshop_info" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>agency</element>
+            <name>x_snc_app_engine_0_workshop_info</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-12 17:16:38</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>agency</sys_name>
+            <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+            <sys_update_name>sys_choice_x_snc_app_engine_0_workshop_info_agency</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-12 17:16:38</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Navy</label>
+            <language>en</language>
+            <name>x_snc_app_engine_0_workshop_info</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-12 17:16:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-12 17:16:38</sys_updated_on>
+            <value>navy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Army</label>
+            <language>en</language>
+            <name>x_snc_app_engine_0_workshop_info</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-12 17:16:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-12 17:16:38</sys_updated_on>
+            <value>army</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DOD4</label>
+            <language>en</language>
+            <name>x_snc_app_engine_0_workshop_info</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-12 17:16:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-12 17:16:38</sys_updated_on>
+            <value>dod4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

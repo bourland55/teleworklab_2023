@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Sign In Day Two">e818ca0747dbed10412ec035126d43d9</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:09:55</sys_created_on>
+        <sys_id>8e09068747dbed10412ec035126d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sign In Day Two.Day Two Sign In</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_8e09068747dbed10412ec035126d4307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:09:55</sys_updated_on>
+        <user_criteria display_value="Day Two Sign In">20ccf907479bed10412ec035126d43bd</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</application>
+        <file_path/>
+        <instance_id>5b1b945edbf1ed9442b321c4059619f5</instance_id>
+        <instance_name>db8utahdemo</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_8e09068747dbed10412ec035126d4307</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Sign In Day Two">e818ca0747dbed10412ec035126d43d9</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-12 19:09:55</sys_created_on><sys_id>8e09068747dbed10412ec035126d4307</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sign In Day Two.Day Two Sign In</sys_name><sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package><sys_policy/><sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_8e09068747dbed10412ec035126d4307</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-12 19:09:55</sys_updated_on><user_criteria display_value="Day Two Sign In">20ccf907479bed10412ec035126d43bd</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>626739447</payload_hash>
+        <record_name>Sign In Day Two.Day Two Sign In</record_name>
+        <reverted_from/>
+        <source>142fd58b47d7ed10412ec035126d435b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:09:55</sys_created_on>
+        <sys_id>ce09068747dbed10412ec035126d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b103c84e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:09:55</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>02090687c6dbed10b30f1ed955ca080a</update_guid>
+        <update_guid_history>02090687c6dbed10b30f1ed955ca080a:626739447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Sign In Day Two.Day Two Sign In">f309468747dbed10412ec035126d4345</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:10:01</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>732a46371a0d4c60baec0c05ba93c064</sys_id>
+        <sys_metadata>8e09068747dbed10412ec035126d4307</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sign In Day Two.Day Two Sign In</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_scope_delete display_value="">1d99c9232af84bc8b9e4c54d1e79ba40</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_8e09068747dbed10412ec035126d4307</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_8e09068747dbed10412ec035126d4307">ce09068747dbed10412ec035126d430a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:10:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

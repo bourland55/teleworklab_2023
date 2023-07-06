@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Team Input">98b6b14b475bed10412ec035126d43e0</sc_cat_item>
+        <sc_catalog display_value="CrWF Workshops">1da33983475bed10412ec035126d4391</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:52:39</sys_created_on>
+        <sys_id>9e57754f475bed10412ec035126d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CrWF Workshops.Team Input</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_9e57754f475bed10412ec035126d43a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:52:39</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</application>
+        <file_path/>
+        <instance_id>5b1b945edbf1ed9442b321c4059619f5</instance_id>
+        <instance_name>db8utahdemo</instance_name>
+        <name>sc_cat_item_catalog_9e57754f475bed10412ec035126d43a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Team Input">98b6b14b475bed10412ec035126d43e0</sc_cat_item><sc_catalog display_value="CrWF Workshops">1da33983475bed10412ec035126d4391</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-12 17:52:39</sys_created_on><sys_id>9e57754f475bed10412ec035126d43a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CrWF Workshops.Team Input</sys_name><sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package><sys_policy/><sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope><sys_update_name>sc_cat_item_catalog_9e57754f475bed10412ec035126d43a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-12 17:52:39</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1272879077</payload_hash>
+        <record_name>CrWF Workshops.Team Input</record_name>
+        <reverted_from/>
+        <source>142fd58b47d7ed10412ec035126d435b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:52:39</sys_created_on>
+        <sys_id>5a57754f475bed10412ec035126d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b0bd0aeb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:52:39</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>9a57754f7c5bed10bf9128ffff181ace</update_guid>
+        <update_guid_history>9a57754f7c5bed10bf9128ffff181ace:-1272879077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CrWF Workshops.Team Input">49877d4f475bed10412ec035126d431e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:53:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>6072cd84c21f45d2900dee4d372fbb84</sys_id>
+        <sys_metadata>9e57754f475bed10412ec035126d43a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CrWF Workshops.Team Input</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_parent display_value="Team Input">98b6b14b475bed10412ec035126d43e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_scope_delete display_value="">1d99c9232af84bc8b9e4c54d1e79ba40</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_9e57754f475bed10412ec035126d43a6</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_9e57754f475bed10412ec035126d43a6">5a57754f475bed10412ec035126d43cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:53:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

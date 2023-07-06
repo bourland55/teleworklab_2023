@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a0eed607475fed10412ec035126d4398" extends="sys_import_set_row" label="Imp Tmpl X Snc App Engine 0 Corona Workshop Attendees" max_length="40" name="u_imp_tmpl_x_snc_app_engine_0_corona_workshop_attendees" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Agency" label="Agency" max_length="40" name="u_agency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Event" label="Event" max_length="40" name="u_event" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First Name" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last Name" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title" label="Title" max_length="40" name="u_title" type="string"/>
+    </element>
+</database>

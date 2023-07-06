@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Agency">bb55f1c7475bed10412ec035126d4388</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:44:41</sys_created_on>
+        <sys_id>f58539c7475bed10412ec035126d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Army</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>question_choice_f58539c7475bed10412ec035126d435f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:44:41</sys_updated_on>
+        <text>Army</text>
+        <value>army</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f58539c7475bed10412ec035126d435f"/>
+</record_update>

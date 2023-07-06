@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for App Engine Workshops</description>
+        <genius_result_assembly/>
+        <label>app-engine-workshops Search Profile</label>
+        <name>x_snc_app_engine_0_omjctlur_search_profile</name>
+        <publish_id>7e499be2-1087-44ec-897e-69438c06cf41</publish_id>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:45:35</sys_created_on>
+        <sys_id>24311e43a21fed1023c227f9c2490a83</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>app-engine-workshops Search Profile</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>ais_search_profile_24311e43a21fed1023c227f9c2490a83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:45:43</sys_updated_on>
+    </ais_search_profile>
+</record_update>

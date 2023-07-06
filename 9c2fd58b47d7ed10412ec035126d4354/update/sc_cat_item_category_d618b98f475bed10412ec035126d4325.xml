@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Team Input">98b6b14b475bed10412ec035126d43e0</sc_cat_item>
+        <sc_category display_value="Attendees">90f3b983475bed10412ec035126d433b</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:55:55</sys_created_on>
+        <sys_id>d618b98f475bed10412ec035126d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendees.Team Input</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sc_cat_item_category_d618b98f475bed10412ec035126d4325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:55:55</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

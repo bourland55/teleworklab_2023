@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Team Input">98b6b14b475bed10412ec035126d43e0</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:49:47</sys_created_on>
+        <sys_id>1cb6b14b475bed10412ec035126d43e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team Input.SNC External</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_1cb6b14b475bed10412ec035126d43e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:49:47</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</application>
+        <file_path/>
+        <instance_id>5b1b945edbf1ed9442b321c4059619f5</instance_id>
+        <instance_name>db8utahdemo</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_1cb6b14b475bed10412ec035126d43e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Team Input">98b6b14b475bed10412ec035126d43e0</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-12 17:49:47</sys_created_on><sys_id>1cb6b14b475bed10412ec035126d43e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Team Input.SNC External</sys_name><sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package><sys_policy/><sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_1cb6b14b475bed10412ec035126d43e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-12 17:49:47</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1455516786</payload_hash>
+        <record_name>Team Input.SNC External</record_name>
+        <reverted_from/>
+        <source>3af36b0047322110f61f4a05126d430d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-05-09 21:34:06</sys_created_on>
+        <sys_id>97f7f58f475bed10412ec035126d43cc</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>188026f90b00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>57f7f58fcb5bed10603f2531e1b7cfcc</update_guid>
+        <update_guid_history>57f7f58fcb5bed10603f2531e1b7cfcc:1455516786</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Team Input.SNC External">ebf7f58f475bed10412ec035126d43d1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:55:28</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>9e9c09d9fe5f442c936d3e32c0fa2fe4</sys_id>
+        <sys_metadata>1cb6b14b475bed10412ec035126d43e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team Input.SNC External</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_scope_delete display_value="">1d99c9232af84bc8b9e4c54d1e79ba40</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_1cb6b14b475bed10412ec035126d43e1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_1cb6b14b475bed10412ec035126d43e1">97f7f58f475bed10412ec035126d43cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:55:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="CrWF Workshops">1da33983475bed10412ec035126d4391</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:36:56</sys_created_on>
+        <sys_id>44c3bd07475bed10412ec035126d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CrWF Workshops.catalog_crwf_workshops</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_crwf_workshops">48c3b907475bed10412ec035126d432a</sys_portal_page>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_44c3bd07475bed10412ec035126d4328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:36:56</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

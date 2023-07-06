@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>inactive_attendees</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 20:22:25</sys_created_on>
+        <sys_id>81ef68c647a7ed50412ec035126d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inactive_attendees</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sys_ui_policy_action_81ef68c647a7ed50412ec035126d434f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-21 20:22:25</sys_updated_on>
+        <table>x_snc_app_engine_0_workshop_info</table>
+        <ui_policy display_value="if inactive attendees is true, make read only">b9cfa4c647a7ed50412ec035126d437c</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="515fe98f471bed10412ec035126d436c" label="Team Info for Build Use Cases" max_length="40" name="x_snc_app_engine_0_team_info_for_build_use_cases" text_index="true" type="collection">
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_app_engine_0_workshop_info" type="reference"/>
+        <element label="Team Members" max_length="40" name="team_members" type="glide_list"/>
+        <element display="true" label="Team Name" max_length="40" name="team_name" type="string"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+    </element>
+</database>

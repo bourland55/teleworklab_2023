@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="App Engine Workshops">a0311e43091fed103ed3cb3c1d93f784</page>
+        <required_translations>[ {
+  "message" : "New Team Info for Build Use Cases",
+  "comment" : ""
+}, {
+  "message" : "New Workshop Attendees",
+  "comment" : ""
+}, {
+  "message" : "New Workshop Info",
+  "comment" : ""
+}, {
+  "message" : "New Workshops Sign In and Out Sheet",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:45:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>e8311e43431fed10a7a915caf8bf1673</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sys_ux_page_property_e8311e43431fed10a7a915caf8bf1673</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:45:42</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_app_engine_0.a0311e43091fed103ed3cb3c1d93f784.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Workshop Info"},"routeInfo":{"route":"record","fields":{"table":"x_snc_app_engine_0_workshop_info","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_app_engine_0_workshop_info","canCreate":true}}},{"label":{"translatable":true,"message":"New Workshop Attendees"},"routeInfo":{"route":"record","fields":{"table":"x_snc_app_engine_0_corona_workshop_attendees","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_app_engine_0_corona_workshop_attendees","canCreate":true}}},{"label":{"translatable":true,"message":"New Team Info for Build Use Cases"},"routeInfo":{"route":"record","fields":{"table":"x_snc_app_engine_0_team_info_for_build_use_cases","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_app_engine_0_team_info_for_build_use_cases","canCreate":true}}},{"label":{"translatable":true,"message":"New Workshops Sign In and Out Sheet"},"routeInfo":{"route":"record","fields":{"table":"x_snc_app_engine_0_workshops_sign_in_and_out_sheet","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_app_engine_0_workshops_sign_in_and_out_sheet","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8311e43431fed10a7a915caf8bf1673"/>
+</record_update>

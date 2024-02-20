@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_snc_app_engine_0_workshops_sign_in_and_out_sheet,x_snc_app_engine_0_workshop_info,x_snc_app_engine_0_corona_workshop_attendees,x_snc_app_engine_0_team_info_for_build_use_cases</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>app-engine-workshops Search Profile Default Spell Check Dictionary</label>
+        <last_derived>2023-07-06 03:26:56</last_derived>
+        <locale>en</locale>
+        <name>x_snc_app_engine_0_app_engine_workshops_search_profile_default_spell_check_dictionary</name>
+        <publish_id>cd031789-d66c-42bb-8bce-ec451973ec7a</publish_id>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:45:43</sys_created_on>
+        <sys_id>a6311283471fed10412ec035126d43a0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_snc_app_engine_0_app_engine_workshops_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>ais_dictionary_a6311283471fed10412ec035126d43a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:45:43</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

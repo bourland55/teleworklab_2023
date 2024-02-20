@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="db319283471fed10412ec035126d4338" sys_domain="global" table="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-12 19:45:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db319283471fed10412ec035126d433c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" name="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" sys_domain="global" view="e8311e43471fed10bc9903a64b86f679">db319283471fed10412ec035126d4338</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" sys_domain="global" view="e8311e43471fed10bc9903a64b86f679">9b319283471fed10412ec035126d433b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-12 19:45:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-12 19:45:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b319283471fed10412ec035126d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" name="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" sys_domain="global" view="e8311e43471fed10bc9903a64b86f679">db319283471fed10412ec035126d4338</sys_ui_form>
+            <sys_ui_section caption="Sign In/Out Info" display_value="Sign In/Out Info" name="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" sys_domain="global" view="e8311e43471fed10bc9903a64b86f679">97319283471fed10412ec035126d433e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-12 19:45:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-12 19:45:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27319283471fed10412ec035126d43b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" name="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" sys_domain="global" view="e8311e43471fed10bc9903a64b86f679">db319283471fed10412ec035126d4338</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_app_engine_0_workshops_sign_in_and_out_sheet" sys_domain="global" view="e8311e43471fed10bc9903a64b86f679">93319283471fed10412ec035126d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-12 19:45:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_app_engine_0_workshops_sign_in_and_out_sheet</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-12 19:45:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db319283471fed10412ec035126d4338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_app_engine_0_workshops_sign_in_and_out_sheet</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+            <sys_update_name>sys_ui_form_sections_db319283471fed10412ec035126d4338</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-12 19:45:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace App Engine Workshops 0" name="workspace-app-engine-workshops-0">e8311e43471fed10bc9903a64b86f679</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

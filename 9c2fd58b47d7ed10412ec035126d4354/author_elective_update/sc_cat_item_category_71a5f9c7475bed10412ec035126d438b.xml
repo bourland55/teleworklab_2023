@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Workshop Info">9cb43587475bed10412ec035126d4364</sc_cat_item>
+        <sc_category display_value="Manager Workshop Items">6ec3fd07475bed10412ec035126d4378</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:45:14</sys_created_on>
+        <sys_id>71a5f9c7475bed10412ec035126d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Workshop Items.Workshop Info</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sc_cat_item_category_71a5f9c7475bed10412ec035126d438b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:45:14</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</application>
+        <file_path/>
+        <instance_id>5b1b945edbf1ed9442b321c4059619f5</instance_id>
+        <instance_name>db8utahdemo</instance_name>
+        <name>sc_cat_item_category_71a5f9c7475bed10412ec035126d438b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Workshop Info">9cb43587475bed10412ec035126d4364</sc_cat_item><sc_category display_value="Manager Workshop Items">6ec3fd07475bed10412ec035126d4378</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-12 17:45:14</sys_created_on><sys_id>71a5f9c7475bed10412ec035126d438b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manager Workshop Items.Workshop Info</sys_name><sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package><sys_policy/><sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope><sys_update_name>sc_cat_item_category_71a5f9c7475bed10412ec035126d438b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-12 17:45:14</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1331863334</payload_hash>
+        <record_name>Manager Workshop Items.Workshop Info</record_name>
+        <reverted_from/>
+        <source>142fd58b47d7ed10412ec035126d435b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:45:14</sys_created_on>
+        <sys_id>fda5f9c7475bed10412ec035126d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b0b643340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:45:14</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>31a5f9c7ca5bed10cd6bf6d7ec87778e</update_guid>
+        <update_guid_history>31a5f9c7ca5bed10cd6bf6d7ec87778e:-1331863334</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Manager Workshop Items.Workshop Info">2806350b475bed10412ec035126d4343</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 17:46:48</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>4c2e363c59c74a59b98ee618df61ea11</sys_id>
+        <sys_metadata>71a5f9c7475bed10412ec035126d438b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Workshop Items.Workshop Info</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_scope_delete display_value="">1d99c9232af84bc8b9e4c54d1e79ba40</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_71a5f9c7475bed10412ec035126d438b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_71a5f9c7475bed10412ec035126d438b">fda5f9c7475bed10412ec035126d438e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 17:46:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

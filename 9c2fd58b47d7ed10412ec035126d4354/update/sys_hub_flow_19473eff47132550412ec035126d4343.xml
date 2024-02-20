@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>used to add additional attendees that weren't on the spreadsheet</description>
+        <internal_name>workshop_add_additional_attendees</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"d81b8e0d-24f5-4640-afe1-bd2d7499bc5d.workshop_attendee_addition","label":"1 - Get Catalog Variables➛workshop_attendee_addition","reference":"","reference_display":"workshop_attendee_addition","type":"array.object","base_type":"array.object","attributes":{"child_label":"Workshop Attendee Addition","child_type_label":"Object","child_type":"object","child_name":"workshop_attendee_addition"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.agency","label":"2 - For Each➛Workshop Attendee Addition➛Agency","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.first_name","label":"2 - For Each➛Workshop Attendee Addition➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.last_name","label":"2 - For Each➛Workshop Attendee Addition➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.title","label":"2 - For Each➛Workshop Attendee Addition➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record.first_name","label":"3 - Create Record➛Workshop Attendees Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_snc_app_engine_0_corona_workshop_attendees","column_name":"first_name"},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record.last_name","label":"3 - Create Record➛Workshop Attendees Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_snc_app_engine_0_corona_workshop_attendees","column_name":"last_name"},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record.title","label":"3 - Create Record➛Workshop Attendees Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_snc_app_engine_0_corona_workshop_attendees","column_name":"title"},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record.user_name","label":"3 - Create Record➛Workshop Attendees Record➛User Name","reference":"","reference_display":"User Name","type":"string","base_type":"string","parent_table_name":"x_snc_app_engine_0_corona_workshop_attendees","column_name":"user_name"},{"name":"3f3c34c8-fbef-42a2-b629-fa639340ef5b.record","label":"4 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record","label":"3 - Create Record➛Workshop Attendees Record","reference":"x_snc_app_engine_0_corona_workshop_attendees","reference_display":"Workshop Attendees","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.event","label":"2 - For Each➛Workshop Attendee Addition➛Event","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
+        <master_snapshot>47db327747532550412ec035126d4395</master_snapshot>
+        <name>Workshop Add Additional Attendees</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>6bdb727747532550412ec035126d4335</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:27:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19473eff47132550412ec035126d4343</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Workshop Add Additional Attendees</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>sys_hub_flow_19473eff47132550412ec035126d4343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=19473eff47132550412ec035126d4343"/>
+    <sys_variable_value action="delete_multiple" query="document_key=19473eff47132550412ec035126d4343"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bdb727747532550412ec035126d4335</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:01:00</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=19473eff47132550412ec035126d4343"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=19473eff47132550412ec035126d4343^sys_idNOT IN18dbbe3747532550412ec035126d43b6"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>18dbbe3747532550412ec035126d43b6</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=18dbbe3747532550412ec035126d43b6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=19473eff47132550412ec035126d4343"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=19473eff47132550412ec035126d4343^sys_idNOT IN1d473eff47132550412ec035126d4345"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>19473eff47132550412ec035126d4343</id>
+        <name>Workshop Add Additional Attendees</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:27:22</sys_created_on>
+        <sys_id>1d473eff47132550412ec035126d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:27:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1d473eff47132550412ec035126d4345"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=19473eff47132550412ec035126d4343^sys_idNOT IN90dbbe3747532550412ec035126d43a6,9cdbbe3747532550412ec035126d43ae"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</model>
+        <model_id>19473eff47132550412ec035126d4343</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_19473eff47132550412ec035126d4343</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:14</sys_created_on>
+        <sys_id>90dbbe3747532550412ec035126d43a6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</model>
+        <model_id>19473eff47132550412ec035126d4343</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_19473eff47132550412ec035126d4343</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:14</sys_created_on>
+        <sys_id>9cdbbe3747532550412ec035126d43ae</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=19473eff47132550412ec035126d4343"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=19473eff47132550412ec035126d4343"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=19473eff47132550412ec035126d4343^sys_idNOT IN20dbbe3747532550412ec035126d43d4,2cdbbe3747532550412ec035126d43d9,58dbbe3747532550412ec035126d43ce,7ceb07bf47932550412ec035126d43ff,90dbbe3747532550412ec035126d43bc,98dbbe3747532550412ec035126d43c8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment>Day One Sign In</comment>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</flow>
+        <order>5</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>20dbbe3747532550412ec035126d43d4</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <ui_id>467057ff-2085-42b4-8a11-f0a01ab350a0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=20dbbe3747532550412ec035126d43d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>20dbbe3747532550412ec035126d43d4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>24dbbe3747532550412ec035126d43d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:08:35</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>20dbbe3747532550412ec035126d43d4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>e4dbbe3747532550412ec035126d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=20dbbe3747532550412ec035126d43d4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>20dbbe3747532550412ec035126d43d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>ecdbbe3747532550412ec035126d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>20dbbe3747532550412ec035126d43d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>a0dbbe3747532550412ec035126d43d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:08:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>group={"display":"Day One Sign In","value":"45fcb147479bed10412ec035126d4337","sys_id":"45fcb147479bed10412ec035126d4337"}^user={{3f3c34c8-fbef-42a2-b629-fa639340ef5b.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=20dbbe3747532550412ec035126d43d4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=20dbbe3747532550412ec035126d43d4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</flow>
+        <order>7</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>2cdbbe3747532550412ec035126d43d9</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <ui_id>9c6480df-9f73-4fa3-b938-68cc803a29b2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2cdbbe3747532550412ec035126d43d9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2cdbbe3747532550412ec035126d43d9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>e8dbbe3747532550412ec035126d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <value>x_snc_app_engine_0_corona_workshop_attendees</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2cdbbe3747532550412ec035126d43d9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2cdbbe3747532550412ec035126d43d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>68dbbe3747532550412ec035126d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{82e66944-9b8a-45c0-b90b-932bb8a7d893.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2cdbbe3747532550412ec035126d43d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>e0dbbe3747532550412ec035126d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2cdbbe3747532550412ec035126d43d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>a4dbbe3747532550412ec035126d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>user_record={{3f3c34c8-fbef-42a2-b629-fa639340ef5b.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2cdbbe3747532550412ec035126d43d9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2cdbbe3747532550412ec035126d43d9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</flow>
+        <order>4</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>58dbbe3747532550412ec035126d43ce</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <ui_id>3f3c34c8-fbef-42a2-b629-fa639340ef5b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=58dbbe3747532550412ec035126d43ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>58dbbe3747532550412ec035126d43ce</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>6cdbbe3747532550412ec035126d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=58dbbe3747532550412ec035126d43ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>58dbbe3747532550412ec035126d43ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>28dbbe3747532550412ec035126d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>58dbbe3747532550412ec035126d43ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>e8dbbe3747532550412ec035126d43cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:22:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{82e66944-9b8a-45c0-b90b-932bb8a7d893.record.first_name}}^last_name={{82e66944-9b8a-45c0-b90b-932bb8a7d893.record.last_name}}^title={{82e66944-9b8a-45c0-b90b-932bb8a7d893.record.title}}^user_name={{82e66944-9b8a-45c0-b90b-932bb8a7d893.record.user_name}}^user_password=Servicenow1!</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=58dbbe3747532550412ec035126d43ce"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=58dbbe3747532550412ec035126d43ce"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment>Workshop Attendees</comment>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</flow>
+        <order>6</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 07:57:27</sys_created_on>
+        <sys_id>7ceb07bf47932550412ec035126d43ff</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <ui_id>df938d30-b953-4c26-b759-d1039052fca2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ceb07bf47932550412ec035126d43ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ceb07bf47932550412ec035126d43ff</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 07:57:27</sys_created_on>
+        <sys_id>bceb47bf47932550412ec035126d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:27</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ceb07bf47932550412ec035126d43ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7ceb07bf47932550412ec035126d43ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 07:57:27</sys_created_on>
+        <sys_id>74eb47bf47932550412ec035126d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7ceb07bf47932550412ec035126d43ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 07:57:27</sys_created_on>
+        <sys_id>3ceb47bf47932550412ec035126d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>group={"display":"Workshop Attendees","value":"8ef8cf7b47932550412ec035126d4390","sys_id":"8ef8cf7b47932550412ec035126d4390"}^user={{3f3c34c8-fbef-42a2-b629-fa639340ef5b.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ceb07bf47932550412ec035126d43ff"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ceb07bf47932550412ec035126d43ff"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>90dbbe3747532550412ec035126d43bc</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <ui_id>d81b8e0d-24f5-4640-afe1-bd2d7499bc5d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=90dbbe3747532550412ec035126d43bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>90dbbe3747532550412ec035126d43bc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>10dbbe3747532550412ec035126d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <value>05307ab747132550412ec035126d433f:item_option_new_set</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>90dbbe3747532550412ec035126d43bc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>58dbbe3747532550412ec035126d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <value>f30372bb47132550412ec035126d4369</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=90dbbe3747532550412ec035126d43bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>90dbbe3747532550412ec035126d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>14dbbe3747532550412ec035126d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>90dbbe3747532550412ec035126d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>9cdbbe3747532550412ec035126d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>90dbbe3747532550412ec035126d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>d8dbbe3747532550412ec035126d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=90dbbe3747532550412ec035126d43bc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=90dbbe3747532550412ec035126d43bc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</flow>
+        <order>3</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>98dbbe3747532550412ec035126d43c8</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <ui_id>82e66944-9b8a-45c0-b90b-932bb8a7d893</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=98dbbe3747532550412ec035126d43c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>98dbbe3747532550412ec035126d43c8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>14dbbe3747532550412ec035126d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <value>x_snc_app_engine_0_corona_workshop_attendees</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=98dbbe3747532550412ec035126d43c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>98dbbe3747532550412ec035126d43c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>dcdbbe3747532550412ec035126d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>98dbbe3747532550412ec035126d43c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>90dbbe3747532550412ec035126d43ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:00:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>agency={{fada12a5-098e-4003-97c4-e2c2e3481000.item.agency}}^event={{fada12a5-098e-4003-97c4-e2c2e3481000.item.event}}^first_name={{fada12a5-098e-4003-97c4-e2c2e3481000.item.first_name}}^last_name={{fada12a5-098e-4003-97c4-e2c2e3481000.item.last_name}}^title={{fada12a5-098e-4003-97c4-e2c2e3481000.item.title}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=98dbbe3747532550412ec035126d43c8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=98dbbe3747532550412ec035126d43c8"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=19473eff47132550412ec035126d4343"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=19473eff47132550412ec035126d4343^sys_idNOT IN9cdbbe3747532550412ec035126d43c0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dcdbbe3747532550412ec035126d43bf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>9cdbbe3747532550412ec035126d43c0</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9cdbbe3747532550412ec035126d43c0"/>
+    <sys_element_mapping action="delete_multiple" query="id=9cdbbe3747532550412ec035126d43c0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>9cdbbe3747532550412ec035126d43c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:15</sys_created_on>
+        <sys_id>14dbbe3747532550412ec035126d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{d81b8e0d-24f5-4640-afe1-bd2d7499bc5d.workshop_attendee_addition}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9cdbbe3747532550412ec035126d43c0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9cdbbe3747532550412ec035126d43c0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=19473eff47132550412ec035126d4343"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=19473eff47132550412ec035126d4343"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_19473eff47132550412ec035126d4343^sys_idNOT IN54dbbe3747532550412ec035126d43ad,98dbbe3747532550412ec035126d43b3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_19473eff47132550412ec035126d4343</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:14</sys_created_on>
+        <sys_id>54dbbe3747532550412ec035126d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_19473eff47132550412ec035126d4343</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:14</sys_created_on>
+        <sys_id>98dbbe3747532550412ec035126d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_19473eff47132550412ec035126d4343"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_19473eff47132550412ec035126d4343"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_19473eff47132550412ec035126d4343"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=19473eff47132550412ec035126d4343^sys_idNOT IN63db727747532550412ec035126d4336"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"63db727747532550412ec035126d4336","name":"plan","plan_signature":null}}</plan>
+        <plan_id>19473eff47132550412ec035126d4343</plan_id>
+        <snapshot>47db327747532550412ec035126d4395</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>63db727747532550412ec035126d4336</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <trigger display_value="">6bdb727747532550412ec035126d4335</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=19473eff47132550412ec035126d4343"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>used to add additional attendees that weren't on the spreadsheet</description>
+        <internal_name>workshop_add_additional_attendees</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"d81b8e0d-24f5-4640-afe1-bd2d7499bc5d.workshop_attendee_addition","label":"1 - Get Catalog Variables➛workshop_attendee_addition","reference":"","reference_display":"workshop_attendee_addition","type":"array.object","base_type":"array.object","attributes":{"child_label":"Workshop Attendee Addition","child_type_label":"Object","child_type":"object","child_name":"workshop_attendee_addition"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.agency","label":"2 - For Each➛Workshop Attendee Addition➛Agency","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.first_name","label":"2 - For Each➛Workshop Attendee Addition➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.last_name","label":"2 - For Each➛Workshop Attendee Addition➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.title","label":"2 - For Each➛Workshop Attendee Addition➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record.first_name","label":"3 - Create Record➛Workshop Attendees Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_snc_app_engine_0_corona_workshop_attendees","column_name":"first_name"},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record.last_name","label":"3 - Create Record➛Workshop Attendees Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_snc_app_engine_0_corona_workshop_attendees","column_name":"last_name"},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record.title","label":"3 - Create Record➛Workshop Attendees Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_snc_app_engine_0_corona_workshop_attendees","column_name":"title"},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record.user_name","label":"3 - Create Record➛Workshop Attendees Record➛User Name","reference":"","reference_display":"User Name","type":"string","base_type":"string","parent_table_name":"x_snc_app_engine_0_corona_workshop_attendees","column_name":"user_name"},{"name":"3f3c34c8-fbef-42a2-b629-fa639340ef5b.record","label":"4 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"82e66944-9b8a-45c0-b90b-932bb8a7d893.record","label":"3 - Create Record➛Workshop Attendees Record","reference":"x_snc_app_engine_0_corona_workshop_attendees","reference_display":"Workshop Attendees","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fada12a5-098e-4003-97c4-e2c2e3481000.item.event","label":"2 - For Each➛Workshop Attendee Addition➛Event","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
+        <master>true</master>
+        <name>Workshop Add Additional Attendees</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Workshop Add Additional Attendees">19473eff47132550412ec035126d4343</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47db327747532550412ec035126d4395</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=47db327747532550412ec035126d4395"/>
+    <sys_variable_value action="delete_multiple" query="document_key=47db327747532550412ec035126d4395"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=47db327747532550412ec035126d4395^sys_idNOT IN1bdb727747532550412ec035126d4301"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>1bdb727747532550412ec035126d4301</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:31</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1bdb727747532550412ec035126d4301"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=47db327747532550412ec035126d4395"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=47db327747532550412ec035126d4395^sys_idNOT INc7db327747532550412ec035126d4396"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>47db327747532550412ec035126d4395</id>
+        <name>Workshop Add Additional Attendees</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:26</sys_created_on>
+        <sys_id>c7db327747532550412ec035126d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:26</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c7db327747532550412ec035126d4396"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=47db327747532550412ec035126d4395^sys_idNOT IN0fdb327747532550412ec035126d4397,5bdb327747532550412ec035126d43bf"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</model>
+        <model_id>47db327747532550412ec035126d4395</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_47db327747532550412ec035126d4395</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:26</sys_created_on>
+        <sys_id>0fdb327747532550412ec035126d4397</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</model>
+        <model_id>47db327747532550412ec035126d4395</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_47db327747532550412ec035126d4395</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:26</sys_created_on>
+        <sys_id>5bdb327747532550412ec035126d43bf</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=47db327747532550412ec035126d4395"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=47db327747532550412ec035126d4395"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=47db327747532550412ec035126d4395^sys_idNOT IN53db327747532550412ec035126d43f2,5bdb327747532550412ec035126d43ec,5bdb327747532550412ec035126d43f7,9fdb327747532550412ec035126d43d7,d1eb87bf47932550412ec035126d4301,dbdb327747532550412ec035126d43ff"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</flow>
+        <order>4</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>53db327747532550412ec035126d43f2</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <ui_id>3f3c34c8-fbef-42a2-b629-fa639340ef5b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=53db327747532550412ec035126d43f2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>53db327747532550412ec035126d43f2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>57db327747532550412ec035126d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=53db327747532550412ec035126d43f2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>53db327747532550412ec035126d43f2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>13db327747532550412ec035126d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>53db327747532550412ec035126d43f2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>d3db327747532550412ec035126d43f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:22:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{82e66944-9b8a-45c0-b90b-932bb8a7d893.record.first_name}}^last_name={{82e66944-9b8a-45c0-b90b-932bb8a7d893.record.last_name}}^title={{82e66944-9b8a-45c0-b90b-932bb8a7d893.record.title}}^user_name={{82e66944-9b8a-45c0-b90b-932bb8a7d893.record.user_name}}^user_password=Servicenow1!</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53db327747532550412ec035126d43f2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=53db327747532550412ec035126d43f2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</flow>
+        <order>3</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>5bdb327747532550412ec035126d43ec</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <ui_id>82e66944-9b8a-45c0-b90b-932bb8a7d893</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5bdb327747532550412ec035126d43ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bdb327747532550412ec035126d43ec</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>5fdb327747532550412ec035126d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <value>x_snc_app_engine_0_corona_workshop_attendees</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5bdb327747532550412ec035126d43ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5bdb327747532550412ec035126d43ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>1bdb327747532550412ec035126d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5bdb327747532550412ec035126d43ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>dbdb327747532550412ec035126d43ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:00:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>agency={{fada12a5-098e-4003-97c4-e2c2e3481000.item.agency}}^event={{fada12a5-098e-4003-97c4-e2c2e3481000.item.event}}^first_name={{fada12a5-098e-4003-97c4-e2c2e3481000.item.first_name}}^last_name={{fada12a5-098e-4003-97c4-e2c2e3481000.item.last_name}}^title={{fada12a5-098e-4003-97c4-e2c2e3481000.item.title}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bdb327747532550412ec035126d43ec"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5bdb327747532550412ec035126d43ec"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Day One Sign In</comment>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</flow>
+        <order>5</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>5bdb327747532550412ec035126d43f7</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <ui_id>467057ff-2085-42b4-8a11-f0a01ab350a0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5bdb327747532550412ec035126d43f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bdb327747532550412ec035126d43f7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>13db327747532550412ec035126d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bdb327747532550412ec035126d43f7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>5fdb327747532550412ec035126d43f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:09:08</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5bdb327747532550412ec035126d43f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5bdb327747532550412ec035126d43f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>1bdb327747532550412ec035126d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5bdb327747532550412ec035126d43f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>dbdb327747532550412ec035126d43f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:09:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>group={"display":"Day One Sign In","value":"45fcb147479bed10412ec035126d4337","sys_id":"45fcb147479bed10412ec035126d4337"}^user={{3f3c34c8-fbef-42a2-b629-fa639340ef5b.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bdb327747532550412ec035126d43f7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5bdb327747532550412ec035126d43f7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>9fdb327747532550412ec035126d43d7</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <ui_id>d81b8e0d-24f5-4640-afe1-bd2d7499bc5d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9fdb327747532550412ec035126d43d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9fdb327747532550412ec035126d43d7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>9bdb327747532550412ec035126d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <value>f30372bb47132550412ec035126d4369</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9fdb327747532550412ec035126d43d7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>d7db327747532550412ec035126d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <value>05307ab747132550412ec035126d433f:item_option_new_set</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9fdb327747532550412ec035126d43d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>9fdb327747532550412ec035126d43d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>dfdb327747532550412ec035126d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>9fdb327747532550412ec035126d43d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>57db327747532550412ec035126d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>9fdb327747532550412ec035126d43d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>93db327747532550412ec035126d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9fdb327747532550412ec035126d43d7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9fdb327747532550412ec035126d43d7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Workshop Attendees</comment>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</flow>
+        <order>6</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 07:57:29</sys_created_on>
+        <sys_id>d1eb87bf47932550412ec035126d4301</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <ui_id>df938d30-b953-4c26-b759-d1039052fca2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d1eb87bf47932550412ec035126d4301"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d1eb87bf47932550412ec035126d4301</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 07:57:29</sys_created_on>
+        <sys_id>d5eb87bf47932550412ec035126d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:29</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d1eb87bf47932550412ec035126d4301"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d1eb87bf47932550412ec035126d4301</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 07:57:29</sys_created_on>
+        <sys_id>91eb87bf47932550412ec035126d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d1eb87bf47932550412ec035126d4301</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 07:57:29</sys_created_on>
+        <sys_id>55eb87bf47932550412ec035126d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>group={"display":"Workshop Attendees","value":"8ef8cf7b47932550412ec035126d4390","sys_id":"8ef8cf7b47932550412ec035126d4390"}^user={{3f3c34c8-fbef-42a2-b629-fa639340ef5b.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d1eb87bf47932550412ec035126d4301"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d1eb87bf47932550412ec035126d4301"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</flow>
+        <order>7</order>
+        <parent_ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>dbdb327747532550412ec035126d43ff</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <ui_id>9c6480df-9f73-4fa3-b938-68cc803a29b2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dbdb327747532550412ec035126d43ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbdb327747532550412ec035126d43ff</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>17db727747532550412ec035126d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <value>x_snc_app_engine_0_corona_workshop_attendees</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dbdb327747532550412ec035126d43ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>dbdb327747532550412ec035126d43ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>93db727747532550412ec035126d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{82e66944-9b8a-45c0-b90b-932bb8a7d893.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>dbdb327747532550412ec035126d43ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>1fdb727747532550412ec035126d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>dbdb327747532550412ec035126d43ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>dfdb727747532550412ec035126d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>user_record={{3f3c34c8-fbef-42a2-b629-fa639340ef5b.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbdb327747532550412ec035126d43ff"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dbdb327747532550412ec035126d43ff"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=47db327747532550412ec035126d4395"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=47db327747532550412ec035126d4395^sys_idNOT IN9fdb327747532550412ec035126d43cb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dcdbbe3747532550412ec035126d43bf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Workshop Add Additional Attendees">47db327747532550412ec035126d4395</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:26</sys_created_on>
+        <sys_id>9fdb327747532550412ec035126d43cb</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 07:57:30</sys_updated_on>
+        <ui_id>fada12a5-098e-4003-97c4-e2c2e3481000</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9fdb327747532550412ec035126d43cb"/>
+    <sys_element_mapping action="delete_multiple" query="id=9fdb327747532550412ec035126d43cb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>9fdb327747532550412ec035126d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:27</sys_created_on>
+        <sys_id>5bdb327747532550412ec035126d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{d81b8e0d-24f5-4640-afe1-bd2d7499bc5d.workshop_attendee_addition}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9fdb327747532550412ec035126d43cb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9fdb327747532550412ec035126d43cb"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=47db327747532550412ec035126d4395"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=47db327747532550412ec035126d4395"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_47db327747532550412ec035126d4395^sys_idNOT IN13db327747532550412ec035126d43bc,d7db327747532550412ec035126d43c4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47db327747532550412ec035126d4395</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:26</sys_created_on>
+        <sys_id>13db327747532550412ec035126d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47db327747532550412ec035126d4395</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:47:26</sys_created_on>
+        <sys_id>d7db327747532550412ec035126d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 06:47:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_47db327747532550412ec035126d4395"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_47db327747532550412ec035126d4395"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_47db327747532550412ec035126d4395"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>19473eff47132550412ec035126d4343</sys_id>
+        <latest_snapshot>47db327747532550412ec035126d4395</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch2-03-30-2023_04-10-2023_1543.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

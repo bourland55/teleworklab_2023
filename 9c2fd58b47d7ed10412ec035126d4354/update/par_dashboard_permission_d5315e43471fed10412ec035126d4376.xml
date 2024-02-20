@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="App Engine Workshops">24311e43de1fed1081227c4984fdf87c</dashboard>
+        <group/>
+        <role display_value="x_snc_app_engine_0.admin" name="x_snc_app_engine_0.admin">a02fd58b47d7ed10412ec035126d4360</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:45:38</sys_created_on>
+        <sys_id>d5315e43471fed10412ec035126d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>24311e43de1fed1081227c4984fdf87c</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>par_dashboard_permission_d5315e43471fed10412ec035126d4376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:45:38</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">3936124b471fed10412ec035126d43a3</canvas>
+        <component display_value="">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"dataPassthrough":null,"configVersion":"23.0.0-ci-SNAPSHOT","groupBy":null,"trendBy":null,"showMaximumRange":false,"enableRealTimeUpdate":false,"scoreType":null,"showScoreUpdateTime":false,"colorConfig":{"type":"default"},"headerTitle":"Day Two Out","showFilterIcon":true,"followFilters":true,"applyDateRange":false,"showChange":false,"showTarget":false,"showGapPercentage":false,"showScoreDate":false,"showChangePercentage":false,"showChangeFrom":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Workshops Sign In and Out Sheet","sourceType":"table","tableOrViewName":"x_snc_app_engine_0_workshops_sign_in_and_out_sheet","filterQuery":"sign_out_day_2ISNOTEMPTY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X3NuY19hcHBfZW5naW5lXzBfd29ya3Nob3BzX3NpZ25faW5fYW5kX291dF9zaGVldDE2ODY2MDAzODc5Nzc=","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4X3NuY19hcHBfZW5naW5lXzBfd29ya3Nob3BzX3NpZ25faW5fYW5kX291dF9zaGVldDE2ODY2MDAzODc5Nzc=","id":"ZEdGaWJHVjRYM051WTE5aGNIQmZaVzVuYVc1bFh6QmZkMjl5YTNOb2IzQnpYM05wWjI1ZmFXNWZZVzVrWDI5MWRGOXphR1ZsZERFMk9EWTJNREF6T0RjNU56Yz0xNjg2NjAwMzg4NzI2","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}]}</component_props>
+        <h>10</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 20:07:31</sys_created_on>
+        <sys_id>3136124b471fed10412ec035126d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_update_name>par_dashboard_widget_3136124b471fed10412ec035126d43af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 20:07:31</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>36</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</application>
+        <file_path/>
+        <instance_id>5b1b945edbf1ed9442b321c4059619f5</instance_id>
+        <instance_name>db8utahdemo</instance_name>
+        <name>par_dashboard_widget_3136124b471fed10412ec035126d43af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">3936124b471fed10412ec035126d43a3</canvas><component display_value="">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"dataPassthrough":null,"configVersion":"23.0.0-ci-SNAPSHOT","groupBy":null,"trendBy":null,"showMaximumRange":false,"enableRealTimeUpdate":false,"scoreType":null,"showScoreUpdateTime":false,"colorConfig":{"type":"default"},"headerTitle":"Day Two Out","showFilterIcon":true,"followFilters":true,"applyDateRange":false,"showChange":false,"showTarget":false,"showGapPercentage":false,"showScoreDate":false,"showChangePercentage":false,"showChangeFrom":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Workshops Sign In and Out Sheet","sourceType":"table","tableOrViewName":"x_snc_app_engine_0_workshops_sign_in_and_out_sheet","filterQuery":"sign_out_day_2ISNOTEMPTY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X3NuY19hcHBfZW5naW5lXzBfd29ya3Nob3BzX3NpZ25faW5fYW5kX291dF9zaGVldDE2ODY2MDAzODc5Nzc=","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4X3NuY19hcHBfZW5naW5lXzBfd29ya3Nob3BzX3NpZ25faW5fYW5kX291dF9zaGVldDE2ODY2MDAzODc5Nzc=","id":"ZEdGaWJHVjRYM051WTE5aGNIQmZaVzVuYVc1bFh6QmZkMjl5YTNOb2IzQnpYM05wWjI1ZmFXNWZZVzVrWDI5MWRGOXphR1ZsZERFMk9EWTJNREF6T0RjNU56Yz0xNjg2NjAwMzg4NzI2","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}]}</component_props><h>10</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-12 20:07:31</sys_created_on><sys_id>3136124b471fed10412ec035126d43af</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package><sys_policy/><sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope><sys_update_name>par_dashboard_widget_3136124b471fed10412ec035126d43af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-12 20:07:31</sys_updated_on><visualization/><w>12</w><x>36</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1321806390</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>142fd58b47d7ed10412ec035126d435b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 20:07:31</sys_created_on>
+        <sys_id>3d36124b471fed10412ec035126d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b13885280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 20:07:31</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>3136124bbe1fed10e3d88567fa5426b0</update_guid>
+        <update_guid_history>3136124bbe1fed10e3d88567fa5426b0:-1321806390</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4236124b471fed10412ec035126d43d3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 20:07:31</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>23428343ce314010b30fb961ff99d744</sys_id>
+        <sys_metadata>3136124b471fed10412ec035126d43af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_scope_delete display_value="">1d99c9232af84bc8b9e4c54d1e79ba40</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_3136124b471fed10412ec035126d43af</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_3136124b471fed10412ec035126d43af">3d36124b471fed10412ec035126d43b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 20:07:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

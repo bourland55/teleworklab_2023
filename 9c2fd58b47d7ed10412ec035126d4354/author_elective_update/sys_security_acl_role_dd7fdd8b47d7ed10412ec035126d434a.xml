@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 16:08:16</sys_created_on>
+        <sys_id>dd7fdd8b47d7ed10412ec035126d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_app_engine_0_workshop_attendance.x_snc_app_engine_0.admin</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_security_acl display_value="x_snc_app_engine_0_workshop_attendance">d97fdd8b47d7ed10412ec035126d4345</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dd7fdd8b47d7ed10412ec035126d434a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 16:08:16</sys_updated_on>
+        <sys_user_role display_value="x_snc_app_engine_0.admin" name="x_snc_app_engine_0.admin">a02fd58b47d7ed10412ec035126d4360</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</application>
+        <file_path/>
+        <instance_id>5b1b945edbf1ed9442b321c4059619f5</instance_id>
+        <instance_name>db8utahdemo</instance_name>
+        <name>sys_security_acl_role_dd7fdd8b47d7ed10412ec035126d434a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-12 16:08:16</sys_created_on><sys_id>dd7fdd8b47d7ed10412ec035126d434a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_app_engine_0_workshop_attendance.x_snc_app_engine_0.admin</sys_name><sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package><sys_policy/><sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope><sys_security_acl display_value="x_snc_app_engine_0_workshop_attendance">d97fdd8b47d7ed10412ec035126d4345</sys_security_acl><sys_update_name>sys_security_acl_role_dd7fdd8b47d7ed10412ec035126d434a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-12 16:08:16</sys_updated_on><sys_user_role display_value="x_snc_app_engine_0.admin" name="x_snc_app_engine_0.admin">a02fd58b47d7ed10412ec035126d4360</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-333746160</payload_hash>
+        <record_name>x_snc_app_engine_0_workshop_attendance.x_snc_app_engine_0.admin</record_name>
+        <reverted_from/>
+        <source>142fd58b47d7ed10412ec035126d435b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 16:08:16</sys_created_on>
+        <sys_id>117fdd8b47d7ed10412ec035126d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b05d7b110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 16:08:16</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>157fdd8bcdd7ed109cd89c69071c934e</update_guid>
+        <update_guid_history>157fdd8bcdd7ed109cd89c69071c934e:-333746160</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_app_engine_0_workshop_attendance.x_snc_app_engine_0.admin">3936244a4767ed50412ec035126d43c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 19:39:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0f71ac61abb946ce888b8a6923cd40b1</sys_id>
+        <sys_metadata>dd7fdd8b47d7ed10412ec035126d434a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_app_engine_0_workshop_attendance.x_snc_app_engine_0.admin</sys_name>
+        <sys_package display_value="App Engine Workshop Check In/Out" source="x_snc_app_engine_0">9c2fd58b47d7ed10412ec035126d4354</sys_package>
+        <sys_parent display_value="">d97fdd8b47d7ed10412ec035126d4345</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="App Engine Workshop Check In/Out">9c2fd58b47d7ed10412ec035126d4354</sys_scope>
+        <sys_scope_delete display_value="">1d99c9232af84bc8b9e4c54d1e79ba40</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_dd7fdd8b47d7ed10412ec035126d434a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_dd7fdd8b47d7ed10412ec035126d434a">117fdd8b47d7ed10412ec035126d434f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-21 19:39:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
